@@ -1,18 +1,14 @@
-* INTERESANTE * 
- ---> Graphical perception experiments find that spatial position (as in a scatter plot or bar chart) leads to the most accurate decoding of numerical data, and is generally preferable to visual variables such as angle, 1D length, 2D area, 3D volume, and color saturation
- ---> Sometimes raw values are less important than relative changes. Consider investors, who are more interested in a stock's growth rate than its specific price
- ---> The result is a chart that preserves data resolution, but uses only a quarter of the space.
- ---> Limitation of Q-Q plots is that their effective use requires that viewers possess some statistical know-how
- ---> Using color or saturation instead of text allows values associated with the links to be perceived more rapidly
- ---> Using polar rather than Cartesian coordinates has a pleasing aeshetic, while using space more efficiently. 
- ---> The "sunburst" layout is equivalent to the "icicle" layout, but in polar coordinates
-          --> Ubuntu lo usa para representar el uso del disco
+Graphical perception experiments find that spatial position (as in a scatter plot or bar chart) leads to the most accurate decoding of numerical data, and is generally preferable to visual variables such as angle, 1D length, 2D area, 3D volume, and color saturation
+Sometimes raw values are less important than relative changes. Consider investors, who are more interested in a stock's growth rate than its specific price
+The result is a chart that preserves data resolution, but uses only a quarter of the space.
+Limitation of Q-Q plots is that their effective use requires that viewers possess some statistical know-how
+Using color or saturation instead of text allows values associated with the links to be perceived more rapidly
+Using polar rather than Cartesian coordinates has a pleasing aeshetic, while using space more efficiently. 
+The "sunburst" layout is equivalent to the "icicle" layout, but in polar coordinates: Ubuntu lo usa para representar el uso del disco
 
- * CONCEPTOS IMPORTANTES *
- ---> Exploratory data analysis: gaining insight into how data are distributed to inform data transformation and modeling decisions
- ---> Quantiles
+Exploratory data analysis: gaining insight into how data are distributed to inform data transformation and modeling decisions
+Quantiles
  
- * NO ME QUEDÓ CLARO *
- ---> Parallel coordinates
- ---> The Reingold-Tilford algorithm
+Parallel coordinates
+The Reingold-Tilford algorithm
 
