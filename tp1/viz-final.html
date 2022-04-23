@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" style="border-radius: 5px" href="https://play-lh.googleusercontent.com/13bG-yQS8wU5YKOEqAAC0Xe7N8RE4HNaKQ7-VTOMMaVsBtQM2G3jAXuan7shKRUDQg">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Higiene de Sueño - Julián Vuoso</title>
+    <style>
+      body{
+        font-family: Trebuchet MS;
+        color: white;
+      }
+      hr.dotted {
+        margin: 100px 0 50px 0;
+        border-top: 3px dotted #bbb;
+      }
+      .column {
+        float: left;
+        padding: 10px;
+        height: 180px; /* Should be removed. Only for demonstration */
+      }
+      .left {
+        width: 20%;
+        align-content: center;
+        flex-direction: column;
+      }
+      .right {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+      }
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      a{
+        color: #4ebd55;
+        font-weight: bold;
+        text-decoration: none;
+      }
+      a:hover{
+        color: rgb(35, 128, 42);
+      }
+    </style>
+  </head>
+  <body style="text-align: center !important;">
+    <div style="background-image: url('https://torange.biz/photofxnew/213/HD/starry-night-sky-213217.jpg'); padding: 50px 0 50px 0;">
+      <h1 style="color: #bdbdbd; font-size: 50px;">HIGIENE DEL SUEÑO</h1>
+      <h2 style="color: #bebeff; font-size: 35px;">Visualización de la Información - TP Datos Personales</h2>
+      <h3 style="color: #f0cdff; font-size: 30px;">Julián Vuoso</h3>
+      <div class="row">
+        <div class="column left">
+          <img style="height: 200px;" src="https://site-cdn.huami.com/files/amazfit/en/gts/section-1-watch.png">
+        </div>
+        <div class="column right">
+          <p style="font-size: 20px;"><i>
+            Objetivo: Recopilar datos de sueño por medio de reloj Amazfit, que mediante <br> la medición de pulsaciones y oxigenación determina: <br>
+            Hora en que me dormí, hora en que desperté, veces que me desperté (y cuánto tiempo), <br>y luego lo que más valor le aporta: 
+            minutos en estado de sueño <b> Ligero, REM y Profundo.</b> <br> Se busca obtener estadísticas y resultados que generen patrones 
+            o conclusiones interesantes en base a mi sueño de entresemana y de fin de semana.</i>
+          </p>
+        </div>
+      </div>
+      
+      <a href="https://julian-vuoso.github.io/infovis/Datos%20Crudos.csv" style="margin-right: 30px; font-size: 20px;">
+        <img style="height: 15px; margin-top: 60px;" src="https://1000marcas.net/wp-content/uploads/2020/12/Microsoft-Excel-Logo.png">
+        Descargar los Datos Crudos
+      </a>
+    </div>
+
+    <hr class="dotted">
+    <h1 style="color: #800ead; margin-left: 25%; text-align: left; "> Tableau - 
+      <a href="https://julian-vuoso.github.io/infovis/Datos%20Procesados%20-%20Tableau.csv" style="margin-right: 30px; font-size: 20px;">
+        <img style="height: 15px; margin-top: 60px;" src="https://1000marcas.net/wp-content/uploads/2020/12/Microsoft-Excel-Logo.png">
+        CSV
+      </a>
+    </h1>
+    <div class='tableauPlaceholder' id='viz1650327393553'>
+      <noscript>
+        <a href='#' >
+          <img alt='Horarios ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ho&#47;Horarios_16503027757780&#47;Horarios&#47;1_rss.png' style='border: none' />
+        </a>
+      </noscript>
+      <object class='tableauViz'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='site_root' value='' />
+        <param name='name' value='Horarios_16503027757780&#47;Horarios' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ho&#47;Horarios_16503027757780&#47;Horarios&#47;1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='language' value='en-US' />
+      </object>
+    </div>
+    <script type='text/javascript'>
+      var divElement = document.getElementById('viz1650327393553');
+      var vizElement = divElement.getElementsByTagName('object')[0];
+      if (divElement.offsetWidth > 800) {
+        vizElement.style.width = '1000px';
+        vizElement.style.height = '827px';
+      } else if (divElement.offsetWidth > 500) {
+        vizElement.style.width = '1000px';
+        vizElement.style.height = '827px';
+      } else {
+        vizElement.style.width = '100%';
+        vizElement.style.height = '1227px';
+      }
+      var scriptElement = document.createElement('script');
+      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+
+    <div class='tableauPlaceholder' id='viz1650327076419' style='position: relative'>
+      <noscript>
+        <a href='#'>
+          <img alt='Fases ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fa&#47;Fasesdesueo&#47;Fases&#47;1_rss.png' style='border: none' />
+        </a>
+      </noscript>
+      <object class='tableauViz' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='site_root' value='' />
+        <param name='name' value='Fasesdesueo&#47;Fases' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fa&#47;Fasesdesueo&#47;Fases&#47;1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='language' value='en-US' />
+      </object>
+    </div>
+    <script type='text/javascript'>
+      var divElement = document.getElementById('viz1650327076419');
+      var vizElement = divElement.getElementsByTagName('object')[0];
+      if (divElement.offsetWidth > 800) {
+        vizElement.style.width = '1000px';
+        vizElement.style.height = '827px';
+      } else if (divElement.offsetWidth > 500) {
+        vizElement.style.width = '1000px';
+        vizElement.style.height = '827px';
+      } else {
+        vizElement.style.width = '100%';
+        vizElement.style.height = '727px';
+      }
+      var scriptElement = document.createElement('script');
+      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+
+    <hr class="dotted">
+    <h1 style="font-family: Tahoma; color: #38b6ff"> Fluorish -
+      <a href="https://julian-vuoso.github.io/infovis/Datos%20Procesados%20-%20Fluorish.csv" style="margin-right: 30px; font-size: 20px;">
+        <img style="height: 15px; margin-top: 60px;" src="https://1000marcas.net/wp-content/uploads/2020/12/Microsoft-Excel-Logo.png">
+        CSV
+      </a>
+    </h1>
+    <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/9450786">
+      <script src="https://public.flourish.studio/resources/embed.js"></script>
+    </div>
+
+    <hr class="dotted">
+    <h1 style="font-family: Tahoma; color: #83b87d"> DataWrapper -
+      <a href="https://julian-vuoso.github.io/infovis/Datos%20Procesados%20-%20DataWrapper.csv" style="margin-right: 30px; font-size: 20px;">
+        <img style="height: 15px; margin-top: 60px;" src="https://1000marcas.net/wp-content/uploads/2020/12/Microsoft-Excel-Logo.png">
+        CSV
+      </a>
+    </h1>
+    <iframe title="Fases por día" aria-label="Interactive area chart" id="datawrapper-chart-YeZF0" src="https://datawrapper.dwcdn.net/YeZF0/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="500"></iframe>
+    <script type="text/javascript">
+      ! function() {
+        "use strict";
+        window.addEventListener("message", (function(e) {
+          if (void 0 !== e.data["datawrapper-height"]) {
+            var t = document.querySelectorAll("iframe");
+            for (var a in e.data["datawrapper-height"])
+              for (var r = 0; r < t.length; r++) {
+                if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px"
+              }
+          }
+        }))
+      }();
+    </script>
+  
+  </body>
+</html>
